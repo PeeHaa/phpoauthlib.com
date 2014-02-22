@@ -4,7 +4,7 @@
         <title>PHPoAuthLib</title>
         <meta charset="utf-8">
         <script>'article aside footer header main nav section time'.replace(/\w+/g,function(n){document.createElement(n)})</script>
-        <link href="/style/style.css" rel="stylesheet" type="text/css" media="screen"></style>
+        <link href="/style/style.css" rel="stylesheet" media="screen">
     </head>
     <body>
         <a href="https://github.com/Lusitanian/PHPoAuthLib">
