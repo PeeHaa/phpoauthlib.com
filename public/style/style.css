@@ -1,0 +1,241 @@
+@font-face {
+    font-family: 'lilita_oneregular';
+    src: url('/style/fonts/lilitaone-regular-webfont.eot');
+    src: url('/style/fonts/lilitaone-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/style/fonts/lilitaone-regular-webfont.woff') format('woff'),
+         url('/style/fonts/lilitaone-regular-webfont.ttf') format('truetype'),
+         url('/style/fonts/lilitaone-regular-webfont.svg#lilita_oneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('/style/fonts/opensans-bold-webfont.eot');
+    src: url('/style/fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/style/fonts/opensans-bold-webfont.woff') format('woff'),
+         url('/style/fonts/opensans-bold-webfont.ttf') format('truetype'),
+         url('/style/fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('/style/fonts/opensans-regular-webfont.eot');
+    src: url('/style/fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/style/fonts/opensans-regular-webfont.woff') format('woff'),
+         url('/style/fonts/opensans-regular-webfont.ttf') format('truetype'),
+         url('/style/fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('/style/fonts/opensans-light-webfont.eot');
+    src: url('/style/fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/style/fonts/opensans-light-webfont.woff') format('woff'),
+         url('/style/fonts/opensans-light-webfont.ttf') format('truetype'),
+         url('/style/fonts/opensans-light-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    background: url('/style/lock_background.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'open_sansregular';
+}
+
+.github-badge {
+    position: fixed;
+    top: 0;
+    right: 0;
+    border: 0;
+    z-index: 2;
+}
+
+#content {
+    position: relative;
+    z-index: 1;
+}
+
+h1 {
+    font-family: 'lilita_oneregular';
+    color: white;
+    font-size: 6em;
+    text-align: center;
+    margin-bottom: 74px;
+}
+
+h2 {
+    font-family: 'open_sanslight';
+    text-align: center;
+    color: white;
+}
+
+h2 span {
+    font-family: 'open_sansbold';
+}
+
+h3 {
+    padding-top: 80px;
+    margin: 0;
+    font-size: 40px;
+    color: #384047;
+}
+
+h4 {
+    color: #94a3a8;
+    font-family: 'open_sanslight';
+    font-size: 18px;
+}
+
+h5 {
+    color: #384047;
+    font-family: 'open_sansbold';
+    font-size: 18px;
+    margin: 5px 0 0 0;
+}
+
+h5 a {
+    text-decoration: none;
+    color: #384047;
+}
+
+div.badges {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+div.intro, div.features, div.installation, div.footer {
+    text-align: center;
+    background: white;
+}
+
+div.image-container {
+    height: 240px;
+}
+
+div.image-container img {
+    border-radius: 160px;
+    width: 160px;
+    height: 160px;
+    position: relative;
+}
+
+div.image-container img.first {
+    left: 0;
+    top: 80px;
+}
+
+div.image-container img.last {
+    right: 0px;
+    top: 80px;
+}
+
+div.features ul {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+}
+
+div.features li {
+    cursor: pointer;
+    width: 200px;
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: top;
+}
+
+div.features img {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    opacity: 0.8;
+}
+
+div.features li:hover img {
+    opacity: 1;
+}
+
+div.features p {
+    color: #94a3a8;
+    font-family: 'open_sanslight';
+    font-size: 15px;
+}
+
+div.services {
+    text-align: center;
+    background: rgba(244,244,244,1);
+    padding-bottom: 20px;
+}
+
+div.services ul {
+    list-style: none;
+    width: 474px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+div.services li {
+    display: inline;
+    margin: 5px;
+}
+
+div.services img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+div.installation {
+    padding-bottom: 20px;
+}
+
+pre {
+    width: 300px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    font-size: 13px;
+    line-height: 19px;
+    overflow: auto;
+    padding: 6px 10px;
+    border-radius: 3px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+div.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-top: 45px;
+}
+
+div.footer li {
+    display: inline;
+    margin: 0 10px;
+}
+
+div.footer a {
+    text-decoration: none;
+    color: #5173bd;
+    font-size: 14px;
+}
+
+div.footer p {
+    color: #94a3a8;
+    font-size: 14px;
+    padding-bottom: 35px;
+}
