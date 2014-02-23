@@ -212,9 +212,41 @@ div.services ul {
 }
 
 div.services li {
-    display: inline;
+    display: inline-block;
     margin: 5px;
+    background: url('/images/services/sprite.png') no-repeat top left;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
 }
+
+div.services li.bitbucket{ background-position: 0 -60px; }
+div.services li.etsy{ background-position: 0 -360px; }
+div.services li.fitbit{ background-position: 0 -480px; }
+div.services li.flickrt{ background-position: 0 -540px; }
+div.services li.tumbler{ background-position: 0 -1380px; }
+div.services li.twittert{ background-position: 0 -1440px; }
+div.services li.amazon{ background-position: 0 0; }
+div.services li.bitly{ background-position: 0 -120px; }
+div.services li.box{ background-position: 0 -180px; }
+div.services li.dailymotion{ background-position: 0 -240px; }
+div.services li.dropbox{ background-position: 0 -300px; }
+div.services li.facebookt{ background-position: 0 -420px; }
+div.services li.foursquare{ background-position: 0 -600px; }
+div.services li.github{ background-position: 0 -660px; }
+div.services li.google{ background-position: 0 -720px; }
+div.services li.harvest{ background-position: 0 -780px; }
+div.services li.heroku{ background-position: 0 -840px; }
+div.services li.instagramt{ background-position: 0 -900px; }
+div.services li.linkedint{ background-position: 0 -960px; }
+div.services li.mailchimp{ background-position: 0 -1020px; }
+div.services li.microsoft{ background-position: 0 -1080px; }
+div.services li.paypal{ background-position: 0 -1140px; }
+div.services li.redditt{ background-position: 0 -1200px; }
+div.services li.runkeeper{ background-position: 0 -1260px }
+div.services li.soundcloud{ background-position: 0 -1320px;}
+div.services li.vkontaktet{ background-position: 0 -1500px; }
+div.services li.yammer{ background-position: 0 -1560px; }
 
 div.services img {
     width: 50px;
